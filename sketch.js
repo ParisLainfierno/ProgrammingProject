@@ -48,8 +48,8 @@ function mouseWheel(event) {
 }
 
 function mouseClicked() {
-	//this mousclick function is to have a changing background
-	//shape that can correspond with the tranformation
+	//this mouseclick function is to have a changing background
+	//shape that can correspond with the transformation
   if (shape === 'flexor') {
     shape = 'extensor';
   } else {
